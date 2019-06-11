@@ -113,6 +113,7 @@ function _chunkc_tiling_desktop {
         "--create[create a desktop]"
         "--annihilate[destroy a desktop]"
         "--rotate[rotate a desktop]:options:(90 180 270)"
+        "--move[move a desktop between monitors]:options:($(__chunkc_monitors) prev next)"
         "--mirror[mirror a desktop]:options:(vertical horizontal)"
         "--equalize[equalize size of windows on desktop]"
         "--padding[adjust desktop padding]:options:(inc dec)"
